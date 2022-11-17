@@ -28,6 +28,9 @@ else:
 
 print("Budi pulang ke rumah")
 
+a=125
+print("Nilai a =",a)
+
 
 
 
