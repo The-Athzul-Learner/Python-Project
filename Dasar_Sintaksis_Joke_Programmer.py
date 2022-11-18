@@ -5,31 +5,31 @@ Semua sintaksis dasar terdiri dari:
 3. Perulangan : Mengulang langkah yang sama berkali kali sampai kondisi terpenuhi
 """
 # Sequensial
-print('Ibu berkata,"Pergi ke toko"')
+print('Ibu memberi perintah,"Pergi ke toko"')
 print('Budi menjawab,"Baik, apa yang harus dilakukan di toko?"')
 print('Ibu menjawab,"Beli satu botol susu, jika ada telur bawa 6"')
 print("Maka Budi berangkat ke toko ")
 print("Dan mulai berbelanja")
 
 # Percabangan
-jumlah_botol_susu = 6
-jumlah_telur = 0
-print(f"jumlah botol susu:{jumlah_botol_susu}")
-print(f"jumlah telur:{jumlah_telur}")
-
-if jumlah_botol_susu > 0:
-    print("Budi mengecek harganya, dan ternyata cukup")
+print("Budi mengecek apakah susu tersedia")
+jumlah_susu=3
+jumlah_telur=0
+if jumlah_susu > 0:
+    print("Susu tersedia")
+    print("Budi mengecek apakah telur tersedia")
     if jumlah_telur > 0:
-        print("Budi membeli 1 botol susu dan 6 butir telur")
+        print("telur tersedia")
+        print("Budi membeli 1 susu dan 6 telur")
     else:
-        print("Budi membeli 1 botol susu")
+        print("telur tidak tersedia")
+        print("Budi hanya membeli 1 susu")
 else:
-    print("Budi tidak jadi membeli 1 botol susu")
-
+    print("Susu tidak tersedia")
+    print("Budi tidak jadi membeli susu")
 print("Budi pulang ke rumah")
 
-a=125
-print("Nilai a =",a)
+
 
 
 
